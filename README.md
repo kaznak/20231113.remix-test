@@ -36,3 +36,18 @@ Make sure to deploy the output of `remix build`
 
 - `build/`
 - `public/build/`
+
+## Memo
+
+### use of `@tailwindcss/typography``
+
+Tailwindcss resets default styling of html elements.
+`@tailwindcss/typography` provides default styling of html elements.
+
+- [Official Plugins / @tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
+
+### Ripple UI
+
+Nice implementation based on Tailwindcss.
+
+- [Ripple UI](https://www.ripple-ui.com/)
