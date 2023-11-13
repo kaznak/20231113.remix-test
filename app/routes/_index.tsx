@@ -9,7 +9,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="container prose">
+    <div className="container prose sm:py-1 md:py-2 lg:py-4 xl:py-8 2xl:py-16">
       <h1>Welcome to Remix</h1>
       <ul>
         <li>
@@ -36,6 +36,7 @@ export default function Index() {
           </a>
         </li>
       </ul>
+      <button className="btn btn-primary">Hello Ripple UI!</button>
     </div>
   );
 }
